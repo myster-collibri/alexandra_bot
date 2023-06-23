@@ -68,7 +68,7 @@ def alexandra():
 				parlez("Soyez plus precis s'il vous plait!")
 
 		else:
-			parlez("pardon pouvez vous repeter la commande s'il vous plait ?")
+			parlez("Alex n'a pas compris ?")
 
 		if 'protocole' in command:
 			command=command.replace('protocole',' ')
